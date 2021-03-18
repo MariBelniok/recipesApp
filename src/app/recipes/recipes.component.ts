@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Recipe } from './recipe.model';
 import { RecipeService } from './recipe.service';
 
@@ -17,4 +18,6 @@ export class RecipesComponent implements OnInit {
       this.recipeSelected = recipe;
     })
   }
+
+
 }
